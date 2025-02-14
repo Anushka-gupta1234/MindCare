@@ -4,7 +4,7 @@ let blogs = []; // Store fetched blogs globally
 // Fetch all blogs from API
 async function fetchBlogs() {
     try {
-        const response = await fetch("http://localhost:10000/MindCare/writeblog/all"); // Adjusted API endpoint
+        const response = await fetch(`${window.location.origin}/MindCare/writeblog/all`); // Adjusted API endpoint
         blogs = await response.json(); // Store blogs globally
 
         displayBlogs(blogs); // Display all blogs initially
