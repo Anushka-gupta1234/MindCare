@@ -8,7 +8,8 @@ async function fetchBlogDetails() {
     }
 
     try {
-        const response = await fetch(`${window.location.origin}/MindCare/writeblog/${blogId}`);
+        const API_BASE_URL = "https://mindcare-tjew.onrender.com";
+        const response = await fetch(`${API_BASE_URL}/MindCare/writeblog/${blogId}`);
         const blog = await response.json();
 
         if (!blog || response.status !== 200) {
