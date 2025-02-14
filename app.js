@@ -23,6 +23,7 @@ app.use("/MindCare", express.static(path.join(__dirname, 'public')));
 app.get("/", (req, res) => res.sendFile(path.join(__dirname, "public", "homepage.html")));
 app.get("/emergency.html", (req, res) => res.sendFile(path.join(__dirname, "public", "emergency.html")));
 app.get('/MindCare/blog/readblog.html', (req, res) => res.sendFile(path.join(__dirname, 'public', 'blog', 'readblog.html')));
+app.get('/MindCare/blog/blogDetails.html', (req, res) => res.sendFile(path.join(__dirname, 'public', 'blog', 'blogDetails.html')));
 app.get('/MindCare/blog/readblog', (req, res) => res.redirect('/MindCare/blog/readblog.html'));
 
 // Routes
