@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        /* Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Full Page Styling */
+        body {
+            background: url('https://i.pinimg.com/736x/66/db/65/66db65ce2b67700d41383c999e1be708.jpg') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: white;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+
+        /* Button Styling */
+        .home-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            font-size: 1rem;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.2);
+            border: 2px solid white;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
+        }
+
+        .home-btn:hover {
+            background-color: white;
+            color: #2e8b57;
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>We're Coming Soon</h1>
+        <p>Something amazing is on the way, Stay tuned!</p>
+
+        <!-- Back to Home Button -->
+        <a href="/MindCare/index.html" class="home-btn">Back to Home</a>
+    </div>
+
+</body>
+</html>
