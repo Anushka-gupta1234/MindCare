@@ -1,4 +1,4 @@
-const Task = require('../models/Task'); // Import the Task model
+const Task = require('../models/task'); // Import the Task model
 const asyncWrapper = require('../middleware/async');
 const bcrypt = require('bcryptjs');
 
