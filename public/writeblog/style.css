@@ -126,6 +126,26 @@ button {
     font-size: 0.88em; /* Reduces the font size */
     width: auto; /* Ensures the button width is based on its content */
 }
+.video-background {
+            position: fixed;
+
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+
+            overflow: hidden;
+
+        }
+
+        .video-background video {
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+
+        }
+
 
 button:hover {
     background-color: #2fb84f;
