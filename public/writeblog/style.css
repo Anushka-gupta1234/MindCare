@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url('https://i.pinimg.com/736x/73/ea/88/73ea88b9b0bd4a5b5f5500cde055b812.jpg') no-repeat center center/cover ;
+/*     background: url('https://i.pinimg.com/736x/73/ea/88/73ea88b9b0bd4a5b5f5500cde055b812.jpg') no-repeat center center/cover ; */
 }
 header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow below the navbar */
